@@ -1,0 +1,87 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.main_body {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.header_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_sections {
+    display: flex;
+    align-items: center;
+}
+
+.header_sections h3 {
+    margin-left: 15px;
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.header_sections span {
+    color: #FF42A5;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.header_sections img {
+    width: 86.041px;
+    height: 40px;
+}
+
+.header_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_about_us a {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.header_follow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.header_follow a{
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.header_follow img{
+      
+}
+
+.header_youtub {
+    width: 33.916px;
+    height: 24px;
+}
+
+.header_tik {
+    width: 24px;
+    height: 24px;
+}
