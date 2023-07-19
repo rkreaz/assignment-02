@@ -373,9 +373,20 @@ body {
     gap: 16px;
 }
 
+.games_catagorys:hover {
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   border: 1px solid  #F948B2;
+   border-radius: 50px;
+}
+
 .footer {
     background: #0B0223;
-    
+
 }
 
 .footer_sections {
@@ -444,11 +455,100 @@ body {
 .footer_copy {
     text-align: center;
     padding-bottom: 100px;
-   
+
 }
-.footer_copy p{
+
+.footer_copy p {
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     font-weight: 500;
-   
+
+}
+
+@media screen and (max-width: 576px) {
+    .header_sections {
+        text-align: center;
+    }
+
+    .header_section {
+
+        flex-direction: column;
+    }
+
+    .header_about {
+
+        flex-direction: column;
+    }
+
+    .header_follow {
+        margin-top: 20px;
+    }
+
+    .play_like {
+        /* margin-right: 20px; */
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .gamer_sections img {
+        width: 500px;
+    }
+
+    .gamer_sections {
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .gamer_right {
+        text-align: center;
+    }
+
+    .online_section_image {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .online_section_image img {
+        width: 400px;
+        padding: 20px;
+    }
+
+    .instantly_image_two img {
+        margin-top: -102px;
+        margin-right: -72px;
+    }
+
+    .play_instantly_section {
+        flex-direction: column;
+    }
+
+    .play_games_section {
+        flex-direction: column;
+    }
+
+    .play_image_two {
+        position: absolute;
+        left: 337px;
+    }
+
+    .games_catagory {
+        flex-direction: column;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        padding: 40px;
+    }
+
+    .footer_story ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_trems ul {
+        flex-direction: column;
+        gap: 45px;
+        justify-content: center;
+    }
+    
 }
